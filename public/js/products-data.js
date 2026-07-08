@@ -2,7 +2,7 @@ window.PRODUCT_DATA = {
   'rockwool-building-roll': {
     name: 'Rockwool Building Roll',
     category: 'Rockwool',
-    image: 'https://images.pexels.com/photos/8961065/pexels-photo-8961065.jpeg?auto=compress&cs=tinysrgb&w=800',
+    image: '../images/products/rockwool-building-roll.jpg',
     intro:
       'Building rolls are manufactured from stable stone wool bonded with thermosetting resin for consistent thermal and acoustic performance.',
     specs: [
@@ -28,7 +28,7 @@ window.PRODUCT_DATA = {
   'rockwool-lrb-mattresses': {
     name: 'Rockwool LRB Mattresses',
     category: 'Rockwool',
-    image: 'https://images.pexels.com/photos/8062/pexels-photo.jpg?auto=compress&cs=tinysrgb&w=800',
+    image: '../images/products/rockwool-lrb-mattresses.jpg',
     intro:
       'Lightly resin bonded mattresses are machine-laid and stitched with wire mesh for high stability and predictable heat-loss performance.',
     specs: [
@@ -52,7 +52,7 @@ window.PRODUCT_DATA = {
   'rockwool-pipe-section': {
     name: 'Rockwool Pipe Section',
     category: 'Rockwool',
-    image: 'https://images.pexels.com/photos/8961065/pexels-photo-8961065.jpeg?auto=compress&cs=tinysrgb&w=800',
+    image: '../images/products/rockwool-pipe-section.jpg',
     intro:
       'Pre-formed rockwool pipe sections designed for consistent insulation thickness on steam and process pipelines.',
     specs: [
@@ -74,7 +74,7 @@ window.PRODUCT_DATA = {
   'rockwool-slab': {
     name: 'Rockwool Slab',
     category: 'Rockwool',
-    image: 'https://images.pexels.com/photos/8961342/pexels-photo-8961342.jpeg?auto=compress&cs=tinysrgb&w=800',
+    image: '../images/products/rockwool-slab.jpg',
     intro:
       'Rigid rockwool slabs for flat and vertical surfaces that require mechanical strength along with thermal protection.',
     specs: [
@@ -96,7 +96,7 @@ window.PRODUCT_DATA = {
   'fiber-glass-pipe-section': {
     name: 'Fiber Glass Pipe Section',
     category: 'Fiber Glass',
-    image: 'https://images.pexels.com/photos/8062/pexels-photo.jpg?auto=compress&cs=tinysrgb&w=800',
+    image: '../images/products/fiber-glass-pipe-section.jpg',
     intro:
       'Glass wool pre-formed sections for low and medium temperature pipe insulation in HVAC and utility services.',
     specs: [
@@ -118,7 +118,7 @@ window.PRODUCT_DATA = {
   'fiber-glass-wool-roll': {
     name: 'Fiber Glass Wool Roll',
     category: 'Fiber Glass',
-    image: 'https://images.pexels.com/photos/8961342/pexels-photo-8961342.jpeg?auto=compress&cs=tinysrgb&w=800',
+    image: '../images/products/fiber-glass-wool-roll.jpg',
     intro:
       'Flexible fiberglass wool rolls suitable for thermal and acoustic insulation across ducts, roofs and partitions.',
     specs: [
@@ -140,7 +140,7 @@ window.PRODUCT_DATA = {
   'fiber-glass-cloth': {
     name: 'Fiber Glass Cloth',
     category: 'Fiber Glass',
-    image: 'https://images.pexels.com/photos/8961065/pexels-photo-8961065.jpeg?auto=compress&cs=tinysrgb&w=800',
+    image: '../images/products/fiber-glass-cloth.jpg',
     intro:
       'Woven fiberglass cloth and silicon-coated fabrics used for insulation jackets, expansion joints and protective wraps.',
     specs: [
@@ -162,7 +162,7 @@ window.PRODUCT_DATA = {
   'ceramic-fiber-blankets': {
     name: 'Ceramic Fiber Blankets',
     category: 'Ceramic Fiber',
-    image: 'https://images.pexels.com/photos/8961342/pexels-photo-8961342.jpeg?auto=compress&cs=tinysrgb&w=800',
+    image: '../images/products/ceramic-fiber-blankets.jpg',
     intro:
       'Needled ceramic fiber blankets made from alumina, silica and zirconia for high-temperature thermal insulation with low thermal conductivity.',
     specs: [
@@ -186,7 +186,7 @@ window.PRODUCT_DATA = {
   'ceramic-fiber-boards': {
     name: 'Ceramic Fiber Boards',
     category: 'Ceramic Fiber',
-    image: 'https://images.pexels.com/photos/8062/pexels-photo.jpg?auto=compress&cs=tinysrgb&w=800',
+    image: '../images/products/ceramic-fiber-boards.jpg',
     intro:
       'Rigid ceramic fiber boards for hot-face and back-up insulation where dimensional stability and high-temperature performance are required.',
     specs: [
@@ -208,7 +208,7 @@ window.PRODUCT_DATA = {
   'ceramic-fiber-cloth-tape-rope': {
     name: 'Ceramic Fiber Cloth, Tape and Rope',
     category: 'Ceramic Fiber',
-    image: 'https://images.pexels.com/photos/8961065/pexels-photo-8961065.jpeg?auto=compress&cs=tinysrgb&w=800',
+    image: '../images/products/ceramic-fiber-cloth-tape-rope.jpg',
     intro:
       'Woven ceramic fiber textiles used for sealing, gasketing and thermal wrapping in high-temperature environments.',
     specs: [
@@ -230,7 +230,7 @@ window.PRODUCT_DATA = {
   'ceramic-fiber-paper': {
     name: 'Ceramic Fiber Paper',
     category: 'Ceramic Fiber',
-    image: 'https://images.pexels.com/photos/8961342/pexels-photo-8961342.jpeg?auto=compress&cs=tinysrgb&w=800',
+    image: '../images/products/ceramic-fiber-paper.jpg',
     intro:
       'Thin, uniform ceramic fiber paper used for gasket layers, parting media and lightweight thermal insulation applications.',
     specs: [
@@ -252,7 +252,7 @@ window.PRODUCT_DATA = {
   'thermocol-pipe-section': {
     name: 'Thermocol Pipe Section',
     category: 'Thermocol',
-    image: 'https://images.pexels.com/photos/8062/pexels-photo.jpg?auto=compress&cs=tinysrgb&w=800',
+    image: '../images/products/thermocol-pipe-section.jpg',
     intro:
       'Expanded polystyrene (thermocol) pipe sections for cold insulation and low-temperature utility lines.',
     specs: [
@@ -274,7 +274,7 @@ window.PRODUCT_DATA = {
   'thermocol-sheets': {
     name: 'Thermocol Sheets',
     category: 'Thermocol',
-    image: 'https://images.pexels.com/photos/8961342/pexels-photo-8961342.jpeg?auto=compress&cs=tinysrgb&w=800',
+    image: '../images/products/thermocol-sheets.jpg',
     intro:
       'Thermocol sheet insulation for flat surfaces, packaging and low-temperature applications.',
     specs: [
@@ -296,7 +296,7 @@ window.PRODUCT_DATA = {
   'puf-pipe-section': {
     name: 'PUF Pipe Section',
     category: 'PUF',
-    image: 'https://images.pexels.com/photos/8961065/pexels-photo-8961065.jpeg?auto=compress&cs=tinysrgb&w=800',
+    image: '../images/products/puf-pipe-section.jpg',
     intro:
       'Polyurethane foam (PUF) pipe sections for high-efficiency cold insulation in pipelines and process services.',
     specs: [
@@ -318,7 +318,7 @@ window.PRODUCT_DATA = {
   'puf-sheets': {
     name: 'PUF Sheets and Supports',
     category: 'PUF',
-    image: 'https://images.pexels.com/photos/8062/pexels-photo.jpg?auto=compress&cs=tinysrgb&w=800',
+    image: '../images/products/puf-sheets.jpg',
     intro:
       'PUF sheets and high-density PUF support blocks used for tanks, vessels and insulated pipeline support points.',
     specs: [

@@ -18,26 +18,22 @@
         <p class="hero-eyebrow">${data.category} · Product Profile</p>
         <h1 class="hero-title">${data.name}</h1>
         <p class="hero-subtitle">${data.intro}</p>
-        ${data.image ? `<img class="product-hero-image" src="${data.image}" alt="${data.name}" loading="lazy" />` : ''}
         <div class="hero-actions">
           <a href="../contact.html" class="btn btn-primary">Request Quote</a>
           <a href="../products.html" class="btn btn-ghost">Back to Products</a>
         </div>
       </div>
       <aside class="hero-aside glass">
-        <h2 class="aside-title">Quick Highlights</h2>
-        <div class="bento-grid">
+        <h2 class="aside-title">Product Visual</h2>
+        ${
+          data.image
+            ? `<img class="product-hero-image" src="${data.image}" alt="${data.name}" loading="lazy" />`
+            : ''
+        }
+        <div class="bento-grid" style="margin-top:12px">
           <div class="bento-card">
             <h3><span class="icon">📦</span> Category</h3>
             <p>${data.category}</p>
-          </div>
-          <div class="bento-card">
-            <h3><span class="icon">🎯</span> Use case</h3>
-            <p>Thermal insulation for industrial, utility and infrastructure systems.</p>
-          </div>
-          <div class="bento-card">
-            <h3><span class="icon">🤝</span> Supply support</h3>
-            <p>Selection guidance based on process and service conditions.</p>
           </div>
           <div class="bento-card">
             <h3><span class="icon">✉️</span> Enquiry</h3>
