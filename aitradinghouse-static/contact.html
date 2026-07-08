@@ -11,7 +11,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./css/styles.css" />
@@ -42,67 +42,83 @@
         <section class="hero-section">
           <div class="hero-content">
             <p class="hero-eyebrow">Contact</p>
-            <h1 class="hero-title">Share your insulation requirement.</h1>
+            <h1 class="hero-title">
+              Share your <span class="accent">insulation requirement.</span>
+            </h1>
             <p class="hero-subtitle">
-              Send a quick requirement and get a fast callback from our team.
+              Send a quick requirement and get a fast callback from our team. We respond to most
+              enquiries within one business day.
             </p>
             <div class="hero-image-strip">
-              <img src="./images/pipe.jpg" alt="Pipe insulation" />
-              <img src="./images/thermo_inner_image.jpg" alt="Thermal insulation" />
-              <img src="./images/fibreglass.jpg" alt="Fiberglass material" />
+              <figure>
+                <img
+                  src="https://images.pexels.com/photos/8062/pexels-photo.jpg?auto=compress&cs=tinysrgb&w=600"
+                  alt="Pipe insulation"
+                  loading="lazy"
+                />
+                <figcaption>Pipe insulation</figcaption>
+              </figure>
+              <figure>
+                <img
+                  src="https://images.pexels.com/photos/8961065/pexels-photo-8961065.jpeg?auto=compress&cs=tinysrgb&w=600"
+                  alt="Thermal insulation"
+                  loading="lazy"
+                />
+                <figcaption>Thermal insulation</figcaption>
+              </figure>
+              <figure>
+                <img
+                  src="https://images.pexels.com/photos/8961342/pexels-photo-8961342.jpeg?auto=compress&cs=tinysrgb&w=600"
+                  alt="Fiberglass material"
+                  loading="lazy"
+                />
+                <figcaption>Industrial sites</figcaption>
+              </figure>
             </div>
           </div>
           <aside class="hero-aside glass">
             <h2 class="aside-title">Corporate office</h2>
             <div class="bento-grid">
               <div class="bento-card">
-                <h3>Address</h3>
+                <h3><span class="icon">📍</span> Address</h3>
+                <p>Ahmedabad – 380007<br />Gujarat, India</p>
+              </div>
+              <div class="bento-card">
+                <h3><span class="icon">📞</span> Phone</h3>
                 <p>
-                  Ahmedabad – 380007<br />
-                  Gujarat, India
+                  <a href="tel:+917926575013">+91-79-26575013</a> /<br />
+                  <a href="tel:+917926575014">+91-79-26575014</a>
                 </p>
               </div>
               <div class="bento-card">
-                <h3>Phone</h3>
-                <p>
-                  <a href="tel:+917926575013">+91‑79‑26575013</a> /<br />
-                  <a href="tel:+917926575014">+91‑79‑26575014</a>
-                </p>
+                <h3><span class="icon">✉️</span> Email</h3>
+                <p><a href="mailto:info@aitradinghouse.com">info@aitradinghouse.com</a></p>
               </div>
               <div class="bento-card">
-                <h3>Email</h3>
-                <p>
-                  <a href="mailto:info@aitradinghouse.com">info@aitradinghouse.com</a>
-                </p>
-              </div>
-              <div class="bento-card">
-                <h3>Working with us</h3>
-                <p>
-                  OEMs, EPC contractors, fabricators, HVAC contractors, pre‑engineered building
-                  specialists.
-                </p>
+                <h3><span class="icon">🤝</span> Working with us</h3>
+                <p>OEMs, EPC contractors, fabricators, HVAC contractors, PEB specialists.</p>
               </div>
             </div>
           </aside>
         </section>
 
         <section class="applications-section">
-          <div class="section-header">
-            <h2>Quick enquiry</h2>
-            <p>Form opens your email client instantly via mailto.</p>
+          <div class="section-header reveal">
+            <div>
+              <span class="section-eyebrow">Quick enquiry</span>
+              <h2>Send us your requirement</h2>
+            </div>
+            <p>Fill in the form and we'll get back to you with product recommendations and pricing.</p>
           </div>
           <div class="applications-grid">
-            <article class="app-card glass-soft" style="grid-column: 1 / -1">
-              <form
-                id="enquiry-form"
-                class="contact-form"
-                action="mailto:info@aitradinghouse.com"
-                method="post"
-                enctype="text/plain"
-              >
+            <article class="app-card glass-soft reveal" style="grid-column: 1 / -1">
+              <div id="form-success" class="form-success" style="display:none;">
+                ✅ Thank you! Your enquiry has been noted. We'll get back to you shortly.
+              </div>
+              <form id="enquiry-form" class="contact-form">
                 <div class="form-row">
                   <label>
-                    Name
+                    Name *
                     <input type="text" name="name" required />
                   </label>
                   <label>
@@ -112,7 +128,7 @@
                 </div>
                 <div class="form-row">
                   <label>
-                    Email
+                    Email *
                     <input type="email" name="email" required />
                   </label>
                   <label>
@@ -121,22 +137,43 @@
                   </label>
                 </div>
                 <label class="form-full">
-                  Requirement details
+                  Product family of interest
+                  <select name="family">
+                    <option value="">Select a family (optional)</option>
+                    <option value="rockwool">Rockwool</option>
+                    <option value="fiberglass">Fiber Glass</option>
+                    <option value="ceramic">Ceramic Fiber</option>
+                    <option value="thermocol-puf">Thermocol &amp; PUF</option>
+                    <option value="other">Not sure / Other</option>
+                  </select>
+                </label>
+                <label class="form-full">
+                  Requirement details *
                   <textarea
                     name="requirement"
-                    rows="4"
+                    rows="5"
                     placeholder="Pipe sizes, operating temperature, medium, location, insulation type required..."
                     required
                   ></textarea>
                 </label>
                 <div class="cta-actions">
                   <button type="submit" class="btn btn-primary">Send enquiry</button>
-                  <a href="mailto:info@aitradinghouse.com" class="btn btn-ghost"
-                    >Open email client</a
-                  >
+                  <a href="mailto:info@aitradinghouse.com" class="btn btn-ghost">Open email client</a>
                 </div>
               </form>
             </article>
+          </div>
+        </section>
+
+        <!-- CTA -->
+        <section class="cta-section glass reveal">
+          <div class="cta-copy">
+            <h2>Prefer to call?</h2>
+            <p>Speak directly with our team during business hours for immediate assistance.</p>
+          </div>
+          <div class="cta-actions">
+            <a href="tel:+917926575013" class="btn btn-primary">Call +91-79-26575013</a>
+            <a href="tel:+917926575014" class="btn btn-ghost">Call +91-79-26575014</a>
           </div>
         </section>
       </main>
@@ -154,7 +191,7 @@
             <div class="footer-col">
               <h3>Contact</h3>
               <p>
-                <strong>Phone:</strong> +91‑79‑26575013 / 14<br />
+                <strong>Phone:</strong> +91-79-26575013 / 14<br />
                 <strong>Email:</strong>
                 <a href="mailto:info@aitradinghouse.com">info@aitradinghouse.com</a>
               </p>
@@ -183,9 +220,9 @@
       </footer>
     </div>
 
-    <script src="https://unpkg.com/three@0.175.0/build/three.min.js"></script>
+    <script src="https://unpkg.com/three@0.160.0/build/three.min.js"></script>
     <script src="./js/three-hero.js"></script>
     <script src="./js/main.js"></script>
+    <script src="./js/contact-form.js"></script>
   </body>
 </html>
-
